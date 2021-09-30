@@ -9,6 +9,16 @@ body {
   margin: 0 auto;
 }
 
+.post-title {
+  margin-bottom: 1rem;
+}
+
+.post-date {
+  display: block;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
 .content {
   margin-bottom: 2rem;
 }
