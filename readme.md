@@ -1,6 +1,6 @@
-# Hugo Starter Theme
+# Hugo Starter Theme with Netlify CMS
 
-Dead-simple Hugo theme with everything you need to get started. Intended to be a starter for creating your own theme without including useless bloat like most Hugo themes.
+Dead-simple Hugo theme with everything you need to get started. Intended to be a starter for creating your own theme without including useless bloat like most Hugo themes. Includes a basic Netlify CMS integration.
 
 ## Getting started
 
