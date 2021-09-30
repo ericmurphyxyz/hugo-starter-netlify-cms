@@ -1,4 +1,3 @@
-baseURL = "https://mynewhugosite.com"
 title = "My New Hugo Site"
 
 [menu]
