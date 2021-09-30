@@ -1,5 +1,11 @@
 {{ partial "header.html" . }}
 
-{{ .Content }}
+<h1>{{ .Params.title }}</h1>
+
+<p>{{ .Params.blurb }}</p>
+
+<h2>{{ .Params.section.heading }}</h2>
+
+<p>{{ .Params.section.text }}</p>
 
 {{ partial "footer.html" . }}
