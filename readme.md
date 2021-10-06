@@ -1,20 +1,32 @@
 # Hugo Starter Theme with Netlify CMS
 
-Dead-simple Hugo theme with everything you need to get started. Intended to be a starter for creating your own theme without including useless bloat like most Hugo themes. Includes a basic Netlify CMS integration.
+Dead-simple Hugo theme with Netlify CMS integration. Intended to be a starter for creating your own theme with an out-of-the-box Netlify CMS integration.
 
 ## Getting started
 
-Inside your project folder, copy the theme to your `themes` folder. Since you're just using it as a starter for your theme, remove the git history.
+Use the deploy button to get your own copy of the repository.
 
-```bash
-git clone https://github.com/ericmurphyxyz/hugo-starter-theme themes/your-theme-name
-rm -rf themes/your-theme-name/.git
-```
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ericmurphyxyz/hugo-starter-theme-netlify-cms&stack=cms)
 
-If you'd like some example content and an example config file to get started, you can copy the `exampleSite` directory into your root Hugo directory.
+This will setup everything needed for running the CMS:
 
-```bash
-cp -r themes/your-theme-name/exampleSite/* ./
-```
+* A new repository in your GitHub account with the code
+* Full Continuous Deployment to Netlify's global CDN network
+* Control users and access with Netlify Identity
+* Manage content with Netlify CMS
+
+Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
+
+You can now add and edit content by navigating to your.app/admin.
+
+## Local Development
+
+Clone this repository and start the development server with `hugo serve`.
+
+The Netlify CMS configuration file can be found in `static/admin/config.yml`.
+
+## Further Reading
 
 To learn more about building themes in Hugo, refer to Hugo's [templating documentation](https://gohugo.io/templates/).
+
+To learn more about Netlify CMS, please refer to Netlify CMS's [documentation](https://www.netlifycms.org/docs/intro/).
